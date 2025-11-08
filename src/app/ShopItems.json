@@ -1,0 +1,23 @@
+
+[
+  {
+    "id": 1,
+    "name": "Oltin Nisha",
+    "description": "Profil uchun eksklyuziv nisha",
+    "price": 50,
+    "category": "badge",
+    "image": "gold-badge.png",
+    "rarity": "rare",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "shakar Mavzu",
+    "description": "Profil va interfeys uchun qora mavzu",
+    "price": 100,
+    "category": "theme",
+    "image": "dark-theme.png",
+    "rarity": "epic",
+    "available": true
+  }
+]

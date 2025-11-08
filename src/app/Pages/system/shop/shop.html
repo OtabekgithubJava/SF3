@@ -1,0 +1,54 @@
+<div class="shop-container dark-theme">
+  <!-- Header (unchanged) -->
+  <div class="header">
+    <div class="user-info">
+      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'" alt="User" class="avatar">
+      <div class="user-details">
+        <span class="name">{{currentStudent?.name || 'Student'}}</span>
+        <div class="aqcha-balance">
+          <span class="aqcha">{{currentStudent?.aqcha || 0}} AQCHA</span>
+          <span class="level">Level {{getLevel()}}</span>
+        </div>
+      </div>
+    </div>
+    <button class="theme-btn" (click)="toggleTheme()">
+      {{ isDarkMode ? '☀️' : '🌝' }}
+    </button>
+  </div>
+
+  <!-- ==================== CATEGORY SECTIONS WITH CAROUSELS ==================== -->
+  <div class="category-section" *ngFor="let cat of categories; let i = index">
+    <h3 class="category-title">{{cat.name}}</h3>
+    <div class="products-carousel">
+      <div class="product-card" *ngFor="let product of getProductsByCategory(cat.id)">
+        <div class="product-image">
+          <img [src]="product.image" [alt]="product.name" (error)="handleImageError($event, product)">
+          <span class="rarity-badge" [class]="product.rarity">
+            {{getRarityText(product.rarity)}}
+          </span>
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{product.name}}</h3>
+          <p class="product-desc">{{product.description}}</p>
+          <div class="product-meta">
+            <span class="price">{{product.price}} AQCHA</span>
+            <span class="xp" *ngIf="product.xpBonus">+{{product.xpBonus}} XP</span>
+          </div>
+          <button
+            class="buy-btn"
+            [class.can-buy]="canAfford(product)"
+            [class.cannot-buy]="!canAfford(product)"
+            (click)="buyProduct(product)"
+            [disabled]="!canAfford(product)">
+            {{ canAfford(product) ? 'BUY NOW' : 'NEED MORE AQCHA' }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" *ngIf="toasts.length > 0" [class]="toasts[0].type">
+    {{toasts[0].message}}
+  </div>
+</div>
