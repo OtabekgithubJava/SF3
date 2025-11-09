@@ -88,7 +88,7 @@ export class Profile implements OnInit {
     "2025-11": { totalLessons: 4, homeworkLessons: 4 }
   };
 
-  currentMonth = '2025-10'; // Joriy oy
+  currentMonth = '2025-11'; // Joriy oy
 
   ngOnInit() {
     this.loadStudentData();
