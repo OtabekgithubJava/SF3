@@ -84,10 +84,11 @@ export class Profile implements OnInit {
   monthDetails: { [key: string]: { totalLessons: number, homeworkLessons: number } } = {
     "2025-08": { totalLessons: 0, homeworkLessons: 0 },
     "2025-09": { totalLessons: 16, homeworkLessons: 7 },
-    "2025-10": { totalLessons: 14, homeworkLessons: 8 }
+    "2025-10": { totalLessons: 14, homeworkLessons: 8 },
+    "2025-11": { totalLessons: 4, homeworkLessons: 4 }
   };
 
-  currentMonth = '2025-09'; // Joriy oy
+  currentMonth = '2025-10'; // Joriy oy
 
   ngOnInit() {
     this.loadStudentData();
