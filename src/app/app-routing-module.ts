@@ -7,6 +7,7 @@ import { Home } from './Pages/system/home/home';
 import { Rating } from './Pages/system/rating/rating';
 import { Profile } from './Pages/system/profile/profile';
 import { Shop } from './Pages/system/shop/shop';
+import { Exam } from './Pages/system/exam/exam';
 
 
 
@@ -23,6 +24,7 @@ const routes: Routes = [
       { path: 'rating', component: Rating },
       { path: 'profile', component: Profile },
       { path: 'shop', component: Shop },
+      { path: 'exam', component: Exam },
       { path: '', redirectTo: 'home', pathMatch: 'full' }
     ]
   },

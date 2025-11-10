@@ -43,9 +43,9 @@ export class System implements OnInit {
   menuItems: MenuItem[] = [
       { title: 'Bosh Sahifa', path: '/system/home', icon: 'fas fa-home' },
       { title: 'Reyting', path: '/system/rating', icon: 'fas fa-chart-line' },
-      // { title: 'Do\'kon', path: '/system/market', icon: 'fas fa-store' },
       { title: 'Profil', path: '/system/profile', icon: 'fas fa-user' },
-      { title: 'Do`kon', path: '/system/shop', icon: 'fas fa-store' }
+      { title: 'Do`kon', path: '/system/shop', icon: 'fas fa-store' },
+      { title: 'Imtihon', path: '/system/exam', icon: 'fas fa-clipboard-check' },
   ];
 
   constructor(private router: Router) {}

@@ -15,7 +15,10 @@
       "2025-10": { "davomat": 80, "uy_vazifa": 10, "tasks": 315, "jarima": 1095 },
       "2025-11": { "davomat": 20, "uy_vazifa": 10, "tasks": 100, "jarima": 410 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" }
+    ]
   },
   {
     "id": 2,
@@ -33,7 +36,10 @@
       "2025-10": { "davomat": 110, "uy_vazifa": 80, "tasks": 1197, "jarima": 485 },
       "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 300, "jarima": 0 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 25, "qualifying": 65, "message": "Qayta topshiradi" }
+    ]
   },
   {
     "id": 3,
@@ -51,7 +57,10 @@
       "2025-10": { "davomat": 90, "uy_vazifa": 60, "tasks": 862, "jarima": 635 },
       "2025-11": { "davomat": 20, "uy_vazifa": 0, "tasks": 100, "jarima": 410 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" }
+    ]
   },
   {
     "id": 4,
@@ -69,7 +78,10 @@
       "2025-10": { "davomat": 100, "uy_vazifa": 70, "tasks": 997, "jarima": 570 },
       "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 250, "jarima": 0 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 35, "qualifying": 65, "message": "Qayta topshiradi" }
+    ]
   },
   {
     "id": 5,
@@ -87,7 +99,10 @@
       "2025-10": { "davomat": 20, "uy_vazifa": 0, "tasks": 0, "jarima": 20 },
       "2025-11": { "davomat": 0, "uy_vazifa": 0, "tasks": 0, "jarima": 0 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Muzlatilgan" }
+    ]
   },
   {
     "id": 6,
@@ -105,7 +120,10 @@
       "2025-10": { "davomat": 50, "uy_vazifa": 10, "tasks": 187, "jarima": 105 },
       "2025-11": { "davomat": 0, "uy_vazifa": 0, "tasks": 0, "jarima": 70 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Guruhdan chiqarildi" }
+    ]
   },
   {
     "id": 7,
@@ -123,7 +141,10 @@
       "2025-10": { "davomat": 120, "uy_vazifa": 60, "tasks": 957, "jarima": 1215 },
       "2025-11": { "davomat": 40, "uy_vazifa": 30, "tasks": 250, "jarima": 120 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Quvadigan darajada" }
+    ]
   },
   {
     "id": 8,
@@ -141,6 +162,9 @@
       "2025-10": { "davomat": 90, "uy_vazifa": 20, "tasks": 700, "jarima": 1020 },
       "2025-11": { "davomat": 30, "uy_vazifa": 20, "tasks": 0, "jarima": 380 }
     },
-    "inventory": []
+    "inventory": [],
+    "exams": [
+      { "date": "2025-10-15", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Qatnashmagan" }
+    ]
   }
 ]

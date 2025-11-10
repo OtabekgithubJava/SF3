@@ -1,0 +1,58 @@
+<div class="exams-container">
+  <!-- Student Profile Header -->
+  <div class="profile-header">
+    <div class="avatar">
+      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'" 
+           alt="Avatar" 
+           class="avatar-img">
+    </div>
+    <div class="profile-info">
+      <h1 class="student-name">{{ currentStudent?.name || 'O‘quvchi' }}</h1>
+      <p class="student-subtitle">Imtihon natijalari</p>
+    </div>
+  </div>
+
+  <!-- Exams Table -->
+  <div class="card">
+    <div class="card-header">
+      <h2 class="card-title">Oktyabr imtihonlari</h2>
+      <span class="exam-count">{{ exams.length }} ta imtihon</span>
+    </div>
+
+    <div class="table-wrapper">
+      <table class="exams-table" *ngIf="exams.length > 0; else empty">
+        <thead>
+          <tr>
+            <th>Sana</th>
+            <th>Fan</th>
+            <th>Ball</th>
+            <th>O‘tish bali</th>
+            <th>Xabar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let exam of exams" class="exam-row">
+            <td class="date">{{ formatDate(exam.date) }}</td>
+            <td class="subject">{{ exam.subject }}</td>
+            <td class="score" [style.color]="getScoreColor(exam.score, exam.qualifying)">
+              <strong>{{ exam.score }}</strong><small>/100</small>
+            </td>
+            <td class="qualifying">{{ exam.qualifying }}</td>
+            <td class="message">
+              <span class="badge" [class]="getBadgeClass(exam.score, exam.qualifying)">
+                {{ exam.message }}
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <ng-template #empty>
+        <div class="empty-state">
+          <i class="fas fa-clipboard-list"></i>
+          <p>Hozircha imtihon natijalari yo‘q</p>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

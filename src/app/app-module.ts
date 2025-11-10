@@ -13,6 +13,7 @@ import { Navbar } from './Pages/system/navbar/navbar';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { Shop } from './Pages/system/shop/shop';
+import { Exam } from './Pages/system/exam/exam';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { Shop } from './Pages/system/shop/shop';
     Rating,
     Profile,
     Navbar,
-    Shop
+    Shop,
+    Exam
   ],
   imports: [
     BrowserModule,
