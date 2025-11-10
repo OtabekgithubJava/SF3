@@ -85,7 +85,7 @@ export class Profile implements OnInit {
     "2025-08": { totalLessons: 0, homeworkLessons: 0 },
     "2025-09": { totalLessons: 16, homeworkLessons: 7 },
     "2025-10": { totalLessons: 14, homeworkLessons: 8 },
-    "2025-11": { totalLessons: 4, homeworkLessons: 4 }
+    "2025-11": { totalLessons: 5, homeworkLessons: 5 }
   };
 
   currentMonth = '2025-11'; // Joriy oy
