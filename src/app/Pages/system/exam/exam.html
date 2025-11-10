@@ -1,25 +1,33 @@
-<div class="exams-container" style="padding-bottom: 90px;">
+<div class="exams-container">
   <!-- Student Profile Header -->
-  <div class="profile-header">
+  <div class="profile-header compact-profile">
     <div class="avatar">
-      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'" 
-           alt="Avatar" 
+      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'"
+           alt="Avatar"
            class="avatar-img">
+      <div class="avatar-glow"></div>
     </div>
     <div class="profile-info">
       <h1 class="student-name">{{ currentStudent?.name || 'O‘quvchi' }}</h1>
       <p class="student-subtitle">Imtihon natijalari</p>
     </div>
+    <div class="profile-decoration">
+      <div class="decoration-circle"></div>
+      <div class="decoration-circle"></div>
+    </div>
   </div>
 
-  <!-- Exams Table -->
+  <!-- Exams Card -->
   <div class="card">
     <div class="card-header">
-      <h2 class="card-title">Oktyabr imtihonlari</h2>
-      <span class="exam-count">{{ exams.length }} ta imtihon</span>
+      <div class="header-content">
+        <h2 class="card-title">Kurs imtihonlari</h2>
+        <span class="exam-count">{{ exams.length }} ta imtihon</span>
+      </div>
+      <div class="header-glow"></div>
     </div>
 
-    <div class="table-wrapper">
+    <div class="table-wrapper table-scroll-container">
       <table class="exams-table" *ngIf="exams.length > 0; else empty">
         <thead>
           <tr>
@@ -31,7 +39,9 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let exam of exams" class="exam-row">
+          <tr *ngFor="let exam of exams; let i = index"
+              class="exam-row"
+              [style.animation-delay.ms]="i * 50">
             <td class="date">{{ formatDate(exam.date) }}</td>
             <td class="subject">{{ exam.subject }}</td>
             <td class="score" [style.color]="getScoreColor(exam.score, exam.qualifying)">
@@ -49,7 +59,9 @@
 
       <ng-template #empty>
         <div class="empty-state">
-          <i class="fas fa-clipboard-list"></i>
+          <div class="empty-icon">
+            <i class="fas fa-clipboard-list"></i>
+          </div>
           <p>Hozircha imtihon natijalari yo‘q</p>
         </div>
       </ng-template>
