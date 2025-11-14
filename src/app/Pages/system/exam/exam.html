@@ -1,9 +1,9 @@
 <div class="exams-container">
   <!-- Student Profile Header -->
-  <div class="profile-header compact-profile">
+  <div class="profile-header">
     <div class="avatar">
-      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'"
-           alt="Avatar"
+      <img [src]="currentStudent?.image || 'assets/default-avatar.jpg'" 
+           alt="Avatar" 
            class="avatar-img">
       <div class="avatar-glow"></div>
     </div>
@@ -27,7 +27,7 @@
       <div class="header-glow"></div>
     </div>
 
-    <div class="table-wrapper table-scroll-container">
+    <div class="table-wrapper">
       <table class="exams-table" *ngIf="exams.length > 0; else empty">
         <thead>
           <tr>
@@ -39,9 +39,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let exam of exams; let i = index"
-              class="exam-row"
-              [style.animation-delay.ms]="i * 50">
+          <tr *ngFor="let exam of exams; let i = index" class="exam-row" [style.animation-delay]="i * 0.05 + 's'">
             <td class="date">{{ formatDate(exam.date) }}</td>
             <td class="subject">{{ exam.subject }}</td>
             <td class="score" [style.color]="getScoreColor(exam.score, exam.qualifying)">
