@@ -152,7 +152,7 @@
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Quvadigan darajada" },
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "ChatGPdan ko'chirgan" },
       { "date": "2025-11-16", "subject": "Portfolio App", "score": 53, "qualifying": 65, "message": "Yomon emas" }
     ]
   },
