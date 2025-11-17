@@ -13,11 +13,12 @@
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 83, "jarima": 57 },
       "2025-09": { "davomat": 130, "uy_vazifa": 45, "tasks": 892, "jarima": 1018 },
       "2025-10": { "davomat": 80, "uy_vazifa": 10, "tasks": 315, "jarima": 1095 },
-      "2025-11": { "davomat": 20, "uy_vazifa": 10, "tasks": 100, "jarima": 410 }
+      "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 100, "jarima": 410 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 52, "qualifying": 65, "message": "Yomon emas" }
     ]
   },
   {
@@ -29,16 +30,17 @@
     "level": "OK",
     "coins": 0,
     "convertedXP": 0,
-    "excludedMonths": [],
+    "excludedMonths": ["2025-10"],
     "months": {
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 68, "jarima": 53 },
       "2025-09": { "davomat": 100, "uy_vazifa": 70, "tasks": 786, "jarima": 768 },
       "2025-10": { "davomat": 110, "uy_vazifa": 80, "tasks": 1197, "jarima": 485 },
-      "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 300, "jarima": 0 }
+      "2025-11": { "davomat": 80, "uy_vazifa": 60, "tasks": 300, "jarima": 0 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 25, "qualifying": 65, "message": "Qayta topshiradi" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 25, "qualifying": 65, "message": "Qayta topshiradi" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 65, "qualifying": 65, "message": "Qoniqarli" }
     ]
   },
   {
@@ -55,11 +57,12 @@
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 78, "jarima": 78 },
       "2025-09": { "davomat": 140, "uy_vazifa": 45, "tasks": 706, "jarima": 638 },
       "2025-10": { "davomat": 90, "uy_vazifa": 60, "tasks": 862, "jarima": 635 },
-      "2025-11": { "davomat": 20, "uy_vazifa": 0, "tasks": 100, "jarima": 410 }
+      "2025-11": { "davomat": 40, "uy_vazifa": 20, "tasks": 100, "jarima": 410 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 20, "qualifying": 65, "message": "Qayta topshiradi" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 0, "qualifying": 65, "message": "Sababli qatnashmadi" }
     ]
   },
   {
@@ -71,16 +74,20 @@
     "level": "OK",
     "coins": 0,
     "convertedXP": 0,
-    "excludedMonths": ["2025-09"],
+    "excludedMonths": [
+      "2025-09",
+      "2025-10"
+    ],
     "months": {
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 80, "jarima": 38 },
       "2025-09": { "davomat": 120, "uy_vazifa": 45, "tasks": 879, "jarima": 523 },
       "2025-10": { "davomat": 100, "uy_vazifa": 70, "tasks": 997, "jarima": 570 },
-      "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 250, "jarima": 0 }
+      "2025-11": { "davomat": 80, "uy_vazifa": 80, "tasks": 250, "jarima": 0 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 35, "qualifying": 65, "message": "Qayta topshiradi" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 35, "qualifying": 65, "message": "Qayta topshiradi" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 72, "qualifying": 65, "message": "Grant yutdi!" }
     ]
   },
   {
@@ -101,7 +108,8 @@
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Muzlatilgan" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Muzlatilgan" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 0, "qualifying": 65, "message": "Muzlatilgan" }
     ]
   },
   {
@@ -118,11 +126,12 @@
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 101, "jarima": 56 },
       "2025-09": { "davomat": 70, "uy_vazifa": 20, "tasks": 727, "jarima": 598 },
       "2025-10": { "davomat": 50, "uy_vazifa": 10, "tasks": 187, "jarima": 105 },
-      "2025-11": { "davomat": 0, "uy_vazifa": 0, "tasks": 0, "jarima": 70 }
+      "2025-11": { "davomat": 20, "uy_vazifa": 0, "tasks": 0, "jarima": 70 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Qatnashmagan" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Qatnashmagan" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 0, "qualifying": 65, "message": "Sababsiz qatnashmadi" }
     ]
   },
   {
@@ -139,11 +148,12 @@
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 82, "jarima": 46 },
       "2025-09": { "davomat": 120, "uy_vazifa": 65, "tasks": 806, "jarima": 678 },
       "2025-10": { "davomat": 120, "uy_vazifa": 60, "tasks": 957, "jarima": 1215 },
-      "2025-11": { "davomat": 40, "uy_vazifa": 30, "tasks": 250, "jarima": 120 }
+      "2025-11": { "davomat": 70, "uy_vazifa": 50, "tasks": 250, "jarima": 120 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Quvadigan darajada" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Quvadigan darajada" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 53, "qualifying": 65, "message": "Yomon emas" }
     ]
   },
   {
@@ -160,11 +170,12 @@
       "2025-08": { "davomat": 6, "uy_vazifa": 0, "tasks": 68, "jarima": 29 },
       "2025-09": { "davomat": 150, "uy_vazifa": 40, "tasks": 663, "jarima": 688 },
       "2025-10": { "davomat": 90, "uy_vazifa": 20, "tasks": 700, "jarima": 1020 },
-      "2025-11": { "davomat": 30, "uy_vazifa": 20, "tasks": 0, "jarima": 380 }
+      "2025-11": { "davomat": 50, "uy_vazifa": 30, "tasks": 0, "jarima": 380 }
     },
     "inventory": [],
     "exams": [
-      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Qatnashmagan" }
+      { "date": "2025-11-05", "subject": "Dezaynlash", "score": 0, "qualifying": 65, "message": "Qatnashmagan" },
+      { "date": "2025-11-16", "subject": "Portfolio App", "score": 34, "qualifying": 65, "message": "Qoniqarsiz" }
     ]
   }
 ]
