@@ -65,7 +65,7 @@
       "2025-10": { "davomat": 90, "uy_vazifa": 60, "tasks": 862, "jarima": 635 },
       "2025-11": { "davomat": 80, "uy_vazifa": 70, "tasks": 300, "jarima": 1230 },
       "2025-12": { "davomat": 140, "uy_vazifa": 50, "tasks": 2957, "jarima": 1250 },
-      "2026-01": { "davomat": 10, "uy_vazifa": 10, "tasks": 0, "jarima": 0 }
+      "2026-01": { "davomat": 10, "uy_vazifa": 10, "tasks": 800, "jarima": 0 }
     },
     "inventory": [],
     "exams": [
